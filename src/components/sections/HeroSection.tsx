@@ -1,4 +1,4 @@
-import { Check, ShieldCheck } from "lucide-react";
+import { Check } from "lucide-react";
 import CTAButton from "@/components/CTAButton";
 
 const leftTrust = [
