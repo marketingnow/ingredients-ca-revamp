@@ -9,7 +9,7 @@ const MidCTASection = () => {
             18 Ingredients. 180-Day Guarantee. Nothing to Lose.
           </h2>
           <CTAButton className="flex-shrink-0">
-            Try It Risk-Free → 180-Day Guarantee
+            TRY IT RISK-FREE → 180-DAY GUARANTEE
           </CTAButton>
         </div>
       </div>
