@@ -37,7 +37,7 @@ const FormulaPhilosophySection = () => {
             Three Pain Pathways. One Formula.
           </h2>
           <p className="font-display text-center text-foreground/70 max-w-3xl mx-auto mb-14 text-lg">
-            TERRAFREEZE is engineered to interrupt pain at the source — not just mask it on the surface.
+            TERRAFREEZE is engineered to interrupt pain at the source, not just mask it on the surface.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

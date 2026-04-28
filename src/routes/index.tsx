@@ -12,12 +12,12 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Ingredients — Why TERRAFREEZE™ Works | 18 Clinically-Backed Actives",
+          "Ingredients: Why TERRAFREEZE™ Works | 18 Clinically-Backed Actives",
       },
       {
         name: "description",
         content:
-          "TERRAFREEZE combines 18 clinically-backed ingredients — Menthol 10%, Methyl Salicylate, Arnica, Boswellia, MSM, Emu Oil and more — to target pain, inflammation, and mobility loss simultaneously. FDA Registered. 180-day guarantee.",
+          "TERRAFREEZE combines 18 clinically-backed ingredients including Menthol 10%, Methyl Salicylate, Arnica, Boswellia, MSM, and Emu Oil to target pain, inflammation, and mobility loss simultaneously. FDA Registered. 180-day guarantee.",
       },
       {
         property: "og:title",
