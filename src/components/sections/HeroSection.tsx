@@ -1,4 +1,4 @@
-import { Check, ShieldCheck } from "lucide-react";
+import { Check } from "lucide-react";
 import CTAButton from "@/components/CTAButton";
 
 const leftTrust = [
@@ -18,14 +18,6 @@ const HeroSection = () => {
     <section className="bg-brand-light py-16 sm:py-20 lg:py-24">
       <div className="content-container">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="flex justify-center mb-6">
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary text-primary-foreground text-xs sm:text-sm font-display font-semibold rounded-full uppercase tracking-wider">
-              <ShieldCheck className="h-4 w-4" />
-              FDA Registered Formula
-            </span>
-          </div>
-
           {/* H1 */}
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground tracking-tight leading-[1.1] mb-6">
             Why TERRAFREEZE Works When Other Creams Don't
@@ -68,7 +60,7 @@ const HeroSection = () => {
 
           {/* CTA */}
           <div className="flex flex-col items-center gap-3">
-            <CTAButton>Try It Risk-Free → 180-Day Guarantee</CTAButton>
+            <CTAButton>TRY IT RISK-FREE → 180-DAY GUARANTEE</CTAButton>
             <p className="font-display text-sm text-foreground/70">
               Free US shipping on 3+ jars · No questions asked returns
             </p>

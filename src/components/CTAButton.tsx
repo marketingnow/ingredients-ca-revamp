@@ -9,16 +9,18 @@ interface CTAButtonProps {
 }
 
 const CTAButton = ({
-  children = "Try It Risk-Free",
+  children = "TRY IT RISK-FREE",
   className,
   size = "lg",
-  href = "#",
+  href = "https://terrafreeze.com/product/terrafreeze-2oz/",
 }: CTAButtonProps) => {
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className={cn(
-        "inline-flex items-center justify-center gap-2 font-display font-bold text-gold-foreground bg-gold rounded-full transition-all duration-300 hover:brightness-105 hover:-translate-y-0.5 hover:shadow-elevated",
+        "inline-flex items-center justify-center gap-2 font-display font-bold uppercase tracking-wide text-gold-foreground bg-gold rounded-md transition-all duration-300 hover:brightness-105 hover:-translate-y-0.5 hover:shadow-elevated",
         size === "lg" ? "px-8 py-4 text-base sm:text-lg" : "px-6 py-3 text-sm",
         className,
       )}
