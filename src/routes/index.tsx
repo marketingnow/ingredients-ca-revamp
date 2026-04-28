@@ -1,26 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
+import IngredientsSection from "@/components/IngredientsSection";
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  head: () => ({
+    meta: [
+      { title: "Ingredients — TERRAFREEZE™ | 18 Clinically-Proven Active Ingredients" },
+      {
+        name: "description",
+        content:
+          "Explore the 18 clinically-proven active ingredients inside TERRAFREEZE™ — Menthol, Arnica, Emu Oil, Boswellia, MSM, Turmeric and more, each chosen for real, lasting pain relief.",
+      },
+      { property: "og:title", content: "Ingredients — TERRAFREEZE™" },
+      {
+        property: "og:description",
+        content:
+          "18 ingredients in 1 powerful formula. Discover the science-backed actives behind TERRAFREEZE™ pain relief.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+  }),
+  component: IngredientsPage,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function IngredientsPage() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main>
+      <h1 className="sr-only">TERRAFREEZE™ Ingredients</h1>
+      <IngredientsSection />
+    </main>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
