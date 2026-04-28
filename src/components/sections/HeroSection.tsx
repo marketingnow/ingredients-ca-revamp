@@ -14,7 +14,7 @@ const rightTrust = [
 
 const HeroSection = () => {
   return (
-    <section className="relative overflow-hidden border-b border-border/60 bg-gradient-to-b from-brand-light via-brand-light/60 to-background py-20 sm:py-24 lg:py-28">
+    <section className="relative overflow-hidden border-b border-border/60 bg-gradient-to-b from-brand-light via-brand-light/60 to-background pt-8 pb-16 sm:pt-10 sm:pb-20 lg:pt-12 lg:pb-24">
       {/* Subtle radial accent glow */}
       <div
         aria-hidden="true"
