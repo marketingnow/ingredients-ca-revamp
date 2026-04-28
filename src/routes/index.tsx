@@ -1,20 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
+import HeroSection from "@/components/sections/HeroSection";
+import FormulaPhilosophySection from "@/components/sections/FormulaPhilosophySection";
 import IngredientsSection from "@/components/IngredientsSection";
+import MidCTASection from "@/components/sections/MidCTASection";
+import QASection from "@/components/sections/QASection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import ClosingCTASection from "@/components/sections/ClosingCTASection";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ingredients — TERRAFREEZE™ | 18 Clinically-Proven Active Ingredients" },
+      {
+        title:
+          "Ingredients — Why TERRAFREEZE™ Works | 18 Clinically-Backed Actives",
+      },
       {
         name: "description",
         content:
-          "Explore the 18 clinically-proven active ingredients inside TERRAFREEZE™ — Menthol, Arnica, Emu Oil, Boswellia, MSM, Turmeric and more, each chosen for real, lasting pain relief.",
+          "TERRAFREEZE combines 18 clinically-backed ingredients — Menthol 10%, Methyl Salicylate, Arnica, Boswellia, MSM, Emu Oil and more — to target pain, inflammation, and mobility loss simultaneously. FDA Registered. 180-day guarantee.",
       },
-      { property: "og:title", content: "Ingredients — TERRAFREEZE™" },
+      {
+        property: "og:title",
+        content: "Why TERRAFREEZE Works When Other Creams Don't",
+      },
       {
         property: "og:description",
         content:
-          "18 ingredients in 1 powerful formula. Discover the science-backed actives behind TERRAFREEZE™ pain relief.",
+          "18 clinically-backed actives. Three pain pathways. One formula. Backed by a 180-day money-back guarantee.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -25,8 +37,13 @@ export const Route = createFileRoute("/")({
 function IngredientsPage() {
   return (
     <main>
-      <h1 className="sr-only">TERRAFREEZE™ Ingredients</h1>
+      <HeroSection />
+      <FormulaPhilosophySection />
       <IngredientsSection />
+      <MidCTASection />
+      <QASection />
+      <TestimonialsSection />
+      <ClosingCTASection />
     </main>
   );
 }
