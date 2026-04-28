@@ -60,7 +60,7 @@ const HeroSection = () => {
 
           {/* CTA */}
           <div className="flex flex-col items-center gap-3">
-            <CTAButton>Try It Risk-Free → 180-Day Guarantee</CTAButton>
+            <CTAButton>TRY IT RISK-FREE → 180-DAY GUARANTEE</CTAButton>
             <p className="font-display text-sm text-foreground/70">
               Free US shipping on 3+ jars · No questions asked returns
             </p>
