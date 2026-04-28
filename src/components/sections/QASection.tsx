@@ -1,11 +1,11 @@
 const qa = [
   {
     q: "What are the active ingredients in TERRAFREEZE?",
-    a: "TERRAFREEZE contains two primary OTC actives — Menthol (10%) and Methyl Salicylate (10%) — alongside 16 supportive natural ingredients including Arnica Montana, MSM, Emu Oil, Boswellia Serrata, Turmeric Extract, Aloe Vera, Ginger Root, Chamomile Extract, Histamine Dihydrochloride, and Vitamins C & E.",
+    a: "TERRAFREEZE contains two primary OTC actives, Menthol (10%) and Methyl Salicylate (10%), alongside 16 supportive natural ingredients including Arnica Montana, MSM, Emu Oil, Boswellia Serrata, Turmeric Extract, Aloe Vera, Ginger Root, Chamomile Extract, Histamine Dihydrochloride, and Vitamins C & E.",
   },
   {
     q: "How does TERRAFREEZE compare to Biofreeze or Voltaren?",
-    a: "Biofreeze uses menthol alone. Voltaren uses a single NSAID (diclofenac). TERRAFREEZE combines a maximum-strength menthol base with 16 additional actives targeting inflammation, penetration, and joint support — covering more pain pathways in a single application.",
+    a: "Biofreeze uses menthol alone. Voltaren uses a single NSAID (diclofenac). TERRAFREEZE combines a maximum-strength menthol base with 16 additional actives targeting inflammation, penetration, and joint support, covering more pain pathways in a single application.",
   },
   {
     q: "Is TERRAFREEZE safe to use every day?",
@@ -17,7 +17,7 @@ const qa = [
   },
   {
     q: "What if it doesn't work for me?",
-    a: "Every order is backed by our 180-day money-back guarantee. If you don't feel a difference, contact us for a full refund — no questions asked.",
+    a: "Every order is backed by our 180-day money-back guarantee. If you don't feel a difference, contact us for a full refund. No questions asked.",
   },
 ];
 

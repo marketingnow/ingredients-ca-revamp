@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 
 
 const leftTrust = [
-  "10% Menthol — Maximum OTC strength",
+  "10% Menthol: Maximum OTC strength",
   "No parabens, no synthetic fillers",
   "Non-greasy, fast-absorbing",
 ];
@@ -25,7 +25,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <p className="font-display text-lg sm:text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed mb-12">
-            Most pain creams rely on a single active ingredient. TERRAFREEZE combines 18 clinically-backed actives that target pain, inflammation, and mobility loss simultaneously — so relief goes deeper and lasts longer.
+            Most pain creams rely on a single active ingredient. TERRAFREEZE combines 18 clinically-backed actives that target pain, inflammation, and mobility loss simultaneously, so relief goes deeper and lasts longer.
           </p>
 
           {/* Trust bar */}

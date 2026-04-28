@@ -5,7 +5,7 @@ const testimonials = [
     name: "Mike R.",
     condition: "Arthritis",
     quote:
-      "The cooling kicks in fast and actually lasts. I've tried Biofreeze and Icy Hot — neither touched my knee pain the way this does.",
+      "The cooling kicks in fast and actually lasts. I've tried Biofreeze and Icy Hot, neither touched my knee pain the way this does.",
   },
   {
     name: "Sarah J.",
@@ -17,7 +17,7 @@ const testimonials = [
     name: "David L.",
     condition: "Nerve Pain",
     quote:
-      "What sold me was the guarantee — zero risk to try it. Now I order the 6-jar bundle every time.",
+      "What sold me was the guarantee: zero risk to try it. Now I order the 6-jar bundle every time.",
   },
 ];
 
