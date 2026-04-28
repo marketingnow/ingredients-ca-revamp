@@ -125,7 +125,7 @@ const ingredients = [
 
 const IngredientsSection = () => {
   return (
-    <section className="section-supporting bg-secondary/30">
+    <section id="ingredients" className="section-supporting bg-secondary/30">
       <div className="content-container">
         <div className="max-w-6xl mx-auto">
           {/* Section Badge */}

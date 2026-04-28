@@ -38,8 +38,8 @@ function IngredientsPage() {
   return (
     <main>
       <HeroSection />
-      <FormulaPhilosophySection />
       <IngredientsSection />
+      <FormulaPhilosophySection />
       <MidCTASection />
       <QASection />
       <TestimonialsSection />
