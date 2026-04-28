@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import CTAButton from "@/components/CTAButton";
+
 
 const leftTrust = [
   "10% Menthol — Maximum OTC strength",
