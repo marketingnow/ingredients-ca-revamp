@@ -143,7 +143,7 @@ const IngredientsSection = () => {
           </div>
 
           {/* Subheadline */}
-          <p className="font-display text-center text-muted-foreground max-w-5xl mx-auto mb-12 text-base lg:text-lg whitespace-nowrap">
+          <p className="font-display text-center text-muted-foreground max-w-5xl mx-auto mb-12 text-base lg:text-lg lg:whitespace-nowrap">
             TERRAFREEZE contains only clinically-proven active ingredients, each one selected to deliver real pain relief from within.
           </p>
 
