@@ -48,9 +48,9 @@ const HeroSection = () => {
           </div>
 
           {/* H1 */}
-          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight leading-[1.15] mb-5">
+          <h1 className="font-display text-[1.625rem] sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight leading-[1.15] mb-5">
             <span className="block">The TERRAFREEZE Formula:</span>
-            <span className="block whitespace-nowrap">
+            <span className="block sm:whitespace-nowrap">
               18 Clinically-Backed{" "}
               <span className="relative inline-block">
                 <svg
