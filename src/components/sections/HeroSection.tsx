@@ -49,13 +49,23 @@ const HeroSection = () => {
 
           {/* H1 */}
           <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight leading-[1.15] mb-5">
-            The TERRAFREEZE Formula:{" "}
-            <span className="relative inline-block">
-              <span
-                aria-hidden="true"
-                className="absolute left-[-0.15em] right-[-0.15em] bottom-[0.08em] h-[0.32em] bg-gold/55 rounded-[2px] -z-0"
-              />
-              <span className="relative z-10">18 Clinically-Backed Ingredients Explained</span>
+            <span className="block">The TERRAFREEZE Formula:</span>
+            <span className="block whitespace-nowrap">
+              18 Clinically-Backed{" "}
+              <span className="relative inline-block">
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 300 40"
+                  preserveAspectRatio="none"
+                  className="absolute left-[-4%] right-[-4%] bottom-[-0.05em] w-[108%] h-[0.55em] -z-0 text-gold/70"
+                >
+                  <path
+                    d="M2 22 Q 30 8, 70 18 T 150 16 T 230 20 T 298 14 L 296 36 Q 240 30, 180 34 T 90 32 T 10 36 Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span className="relative z-10">Ingredients Explained</span>
+              </span>
             </span>
           </h1>
 
