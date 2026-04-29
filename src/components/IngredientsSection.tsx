@@ -74,7 +74,7 @@ const ingredients = [
       "Improves circulation and warms tense muscles, helping ease chronic pain and stiffness.",
     badge: "Natural warming agent",
     image: gingerImage,
-    link: "https://terrafreeze.com/ingredients/ginger",
+    link: "https://terrafreeze.com/ingredients/ginger-root-extract",
   },
   {
     category: "SKIN REPAIR",
