@@ -51,11 +51,11 @@ const HeroSection = () => {
           <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight leading-[1.15] mb-5">
             The TERRAFREEZE Formula:{" "}
             <span className="relative inline-block">
-              <span className="relative z-10">18 Clinically-Backed Ingredients Explained</span>
               <span
                 aria-hidden="true"
-                className="absolute left-0 right-0 bottom-0 sm:bottom-0.5 h-2 sm:h-2.5 bg-gold/40 -z-0 rounded-sm"
+                className="absolute left-[-0.15em] right-[-0.15em] bottom-[0.08em] h-[0.32em] bg-gold/55 rounded-[2px] -z-0"
               />
+              <span className="relative z-10">18 Clinically-Backed Ingredients Explained</span>
             </span>
           </h1>
 
