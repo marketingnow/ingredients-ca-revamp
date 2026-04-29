@@ -143,8 +143,8 @@ const IngredientsSection = () => {
           </div>
 
           {/* Subheadline */}
-          <p className="font-display text-center text-muted-foreground max-w-3xl mx-auto mb-12 text-lg">
-            TERRAFREEZE™ contains only clinically-proven active ingredients, each one selected to deliver real pain relief from within.
+          <p className="font-display text-center text-muted-foreground max-w-5xl mx-auto mb-12 text-base lg:text-lg whitespace-nowrap">
+            TERRAFREEZE contains only clinically-proven active ingredients, each one selected to deliver real pain relief from within.
           </p>
 
           {/* Ingredient Cards Grid */}

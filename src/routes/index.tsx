@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Ingredients: Why TERRAFREEZE™ Works | 18 Clinically-Backed Actives",
+          "Ingredients: Why TERRAFREEZE Works | 18 Clinically-Backed Actives",
       },
       {
         name: "description",
