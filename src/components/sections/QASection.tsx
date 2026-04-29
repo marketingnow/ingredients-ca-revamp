@@ -43,7 +43,7 @@ const QASection = () => {
             </span>
           </div>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-center tracking-tight mb-12">
-            Straight Answers About the Formula
+            Straight Answers About TERRAFREEZE
           </h2>
 
           <div className="space-y-8">
