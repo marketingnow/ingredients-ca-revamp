@@ -49,9 +49,9 @@ const HeroSection = () => {
 
           {/* H1 */}
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground tracking-tight leading-[1.1] mb-6">
-            Why TERRAFREEZE Works When{" "}
+            The TERRAFREEZE Formula:{" "}
             <span className="relative inline-block">
-              <span className="relative z-10">Other Creams Don't</span>
+              <span className="relative z-10">18 Clinically-Backed Ingredients Explained</span>
               <span
                 aria-hidden="true"
                 className="absolute left-0 right-0 bottom-1 h-3 sm:h-4 bg-gold/40 -z-0 rounded-sm"
@@ -61,7 +61,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <p className="font-display text-lg sm:text-xl text-foreground/75 max-w-3xl mx-auto leading-relaxed mb-10">
-            Most pain creams rely on a single active ingredient. TERRAFREEZE combines 18 clinically-backed actives that target pain, inflammation, and mobility loss simultaneously, so relief goes deeper and lasts longer.
+            Most pain creams rely on a single active ingredient. TERRAFREEZE combines 18 clinically-backed actives that target pain, inflammation, and mobility loss at the same time, so relief goes deeper and lasts longer.
           </p>
 
           {/* Trust bar inside a card */}
@@ -98,13 +98,24 @@ const HeroSection = () => {
 
           {/* CTA */}
           <div className="flex flex-col items-center gap-3">
-            <a
-              href="#ingredients"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 text-base sm:text-lg font-display font-bold uppercase tracking-wide text-primary bg-transparent border-2 border-primary rounded-md transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:-translate-y-0.5 shadow-sm hover:shadow-md"
-            >
-              <span>Jump To Ingredients</span>
-              <span aria-hidden="true">↓</span>
-            </a>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <a
+                href="#ingredients"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-base sm:text-lg font-display font-bold uppercase tracking-wide text-primary bg-transparent border-2 border-primary rounded-md transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:-translate-y-0.5 shadow-sm hover:shadow-md"
+              >
+                <span>Jump To Ingredients</span>
+                <span aria-hidden="true">↓</span>
+              </a>
+              <a
+                href="https://terrafreeze.com/product/terrafreeze-2oz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-base sm:text-lg font-display font-bold uppercase tracking-wide text-gold-foreground bg-gold rounded-md transition-all duration-300 hover:brightness-105 hover:-translate-y-0.5 shadow-sm hover:shadow-elevated"
+              >
+                <span>Try It Risk-Free</span>
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
             <p className="font-display text-sm text-foreground/70">
               Free US shipping on 3+ jars · No questions asked returns
             </p>
