@@ -2,22 +2,22 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Mike R.",
+    name: "Mike R., Calgary AB",
     condition: "Arthritis",
     quote:
-      "The cooling kicks in fast and actually lasts. I've tried Biofreeze and Icy Hot, neither touched my knee pain the way this does.",
+      "The cooling kicks in fast and actually lasts. I work outdoors through Alberta winters and my knees are brutal by February. I've tried Biofreeze, nothing touched my joint pain the way this does.",
   },
   {
-    name: "Sarah J.",
+    name: "Sarah J., Mississauga ON",
     condition: "Chronic Back Pain",
     quote:
-      "I was skeptical about a cream with this many ingredients, but the formula genuinely works. Three months in and I've stopped reaching for ibuprofen.",
+      "I'm on my feet 12 hours a day as a nurse. I was skeptical about a cream with this many ingredients, but the formula genuinely works. Three months in and I've stopped reaching for ibuprofen.",
   },
   {
-    name: "David L.",
+    name: "David L., Ottawa ON",
     condition: "Nerve Pain",
     quote:
-      "What sold me was the guarantee: zero risk to try it. Now I order the 6-jar bundle every time.",
+      "What sold me was the guarantee, zero risk to try it. My hands go stiff every winter and this is the only thing that gives me real relief. Now I order the 6-jar bundle every time.",
   },
 ];
 

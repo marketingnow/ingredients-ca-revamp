@@ -8,9 +8,9 @@ const leftTrust = [
 ];
 
 const rightTrust = [
-  "FDA Registered facility",
+  "Health Canada Licensed",
   "180-Day Money-Back Guarantee",
-  "Ships from the USA",
+  "Ships from Canada",
 ];
 
 const HeroSection = () => {
@@ -76,7 +76,7 @@ const HeroSection = () => {
                   aria-hidden="true"
                   viewBox="0 0 300 40"
                   preserveAspectRatio="none"
-                  className="absolute left-[-4%] right-[-4%] bottom-[-0.05em] w-[108%] h-[0.55em] -z-0 text-[hsl(355_80%_70%)]/80"
+                  className="absolute left-[-4%] right-[-4%] bottom-[-0.05em] w-[108%] h-[0.55em] -z-0 text-[hsl(355_85%_78%)]/85"
                 >
                   <path
                     d="M2 22 Q 30 8, 70 18 T 150 16 T 230 20 T 298 14 L 296 36 Q 240 30, 180 34 T 90 32 T 10 36 Z"
@@ -90,7 +90,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <p className="font-display text-base sm:text-lg text-foreground/75 max-w-3xl mx-auto leading-relaxed mb-7">
-            Most pain creams rely on a single active ingredient. TERRAFREEZE combines 18 clinically-backed actives that target pain, inflammation, and mobility loss at the same time, so relief goes deeper and lasts longer.
+            Most pain creams rely on a single active ingredient. TERRAFREEZE combines 18 clinically-backed actives that target pain, inflammation, and mobility loss at the same time. Deeper relief. Longer lasting. Made for how Canadians actually live.
           </p>
 
           {/* Trust bar inside a card */}
@@ -146,7 +146,7 @@ const HeroSection = () => {
               </a>
             </div>
             <p className="font-display text-xs sm:text-sm text-foreground/70">
-              Free US shipping on 3+ jars · No questions asked returns
+              Free shipping on orders over $60 CAD · No questions asked returns
             </p>
           </div>
         </div>
