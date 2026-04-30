@@ -1,4 +1,5 @@
-import { Check, FlaskConical } from "lucide-react";
+import { Check } from "lucide-react";
+import mapleLeaf from "@/assets/maple-leaf.png";
 
 const leftTrust = [
   "10% Menthol: Maximum OTC strength",
@@ -32,15 +33,15 @@ const HeroSection = () => {
       {/* Large faded maple leaf watermark */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.06]"
+        className="pointer-events-none absolute inset-0 flex items-center justify-center"
       >
-        <svg
-          viewBox="0 0 100 100"
-          className="w-[640px] h-[640px] max-w-[90%] text-[hsl(355_75%_42%)]"
-          fill="currentColor"
-        >
-          <path d="M50 6 L54 28 L72 18 L66 38 L88 36 L72 50 L92 60 L70 62 L76 80 L58 70 L56 94 L50 84 L44 94 L42 70 L24 80 L30 62 L8 60 L28 50 L12 36 L34 38 L28 18 L46 28 Z" />
-        </svg>
+        <img
+          src={mapleLeaf}
+          alt=""
+          width={1024}
+          height={1024}
+          className="w-[640px] h-[640px] max-w-[90%] opacity-[0.09]"
+        />
       </div>
       {/* Faint grid texture */}
       <div
@@ -59,9 +60,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Eyebrow badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 rounded-full border border-[hsl(355_75%_45%)]/30 bg-background/85 backdrop-blur-sm shadow-sm">
-            <svg viewBox="0 0 100 100" className="h-3.5 w-3.5 text-[hsl(355_75%_45%)]" fill="currentColor" aria-hidden="true">
-              <path d="M50 6 L54 28 L72 18 L66 38 L88 36 L72 50 L92 60 L70 62 L76 80 L58 70 L56 94 L50 84 L44 94 L42 70 L24 80 L30 62 L8 60 L28 50 L12 36 L34 38 L28 18 L46 28 Z" />
-            </svg>
+            <img src={mapleLeaf} alt="" width={1024} height={1024} className="h-4 w-4" />
             <span className="font-display text-xs sm:text-sm font-semibold uppercase tracking-wider text-[hsl(355_75%_35%)]">
               Proudly Canadian Formula
             </span>
@@ -77,7 +76,7 @@ const HeroSection = () => {
                   aria-hidden="true"
                   viewBox="0 0 300 40"
                   preserveAspectRatio="none"
-                  className="absolute left-[-4%] right-[-4%] bottom-[-0.05em] w-[108%] h-[0.55em] -z-0 text-gold/70"
+                  className="absolute left-[-4%] right-[-4%] bottom-[-0.05em] w-[108%] h-[0.55em] -z-0 text-[hsl(355_80%_70%)]/80"
                 >
                   <path
                     d="M2 22 Q 30 8, 70 18 T 150 16 T 230 20 T 298 14 L 296 36 Q 240 30, 180 34 T 90 32 T 10 36 Z"
