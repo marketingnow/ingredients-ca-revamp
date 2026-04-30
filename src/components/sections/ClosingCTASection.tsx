@@ -17,10 +17,10 @@ const ClosingCTASection = () => {
 
           <div className="text-center lg:text-left">
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground tracking-tight mb-4">
-              Every Ingredient Has a Job. Together, They Work.
+              Your Pain Has More Than One Cause. Now You Have More Than One Answer.
             </h2>
             <p className="font-display text-lg sm:text-xl text-foreground/75 leading-relaxed mb-10">
-              Non-greasy. Fast-absorbing. 18 clinically-backed ingredients. Completely risk-free.
+              18 ingredients. One formula. Health Canada Licensed, ships from Canada, and backed by a guarantee long enough to know for certain.
             </p>
 
             <div className="flex flex-col items-center lg:items-start gap-3">

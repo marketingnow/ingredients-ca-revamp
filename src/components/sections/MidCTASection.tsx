@@ -13,7 +13,7 @@ const MidCTASection = () => {
               loading="lazy"
             />
             <h2 className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-foreground tracking-tight max-w-2xl">
-              18 Ingredients. 180-Day Guarantee. Nothing to Lose.
+              Over 15,000 Canadians Have Tried It. None of Them Risked Anything.
             </h2>
           </div>
           <CTAButton className="flex-shrink-0">
