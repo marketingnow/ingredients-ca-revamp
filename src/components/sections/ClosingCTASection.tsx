@@ -17,14 +17,14 @@ const ClosingCTASection = () => {
 
           <div className="text-center lg:text-left">
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground tracking-tight mb-4">
-              Your Pain Has More Than One Cause. Now You Have More Than One Answer.
+              A Formula That Reaches the Pain. A Promise That Outlasts the Jar.
             </h2>
             <p className="font-display text-lg sm:text-xl text-foreground/75 leading-relaxed mb-10">
-              18 ingredients. One formula. Health Canada Licensed, ships from Canada, and backed by a guarantee long enough to know for certain.
+              Eighteen active ingredients, built around a carrier that actually delivers them. Half a year to decide if it earned its spot in your medicine cabinet. If it did not, you get every dollar back, even if the jar is empty.
             </p>
 
             <div className="flex flex-col items-center lg:items-start gap-3">
-              <CTAButton>TRY IT RISK-FREE → 180-DAY GUARANTEE</CTAButton>
+              <CTAButton>Order TERRAFREEZE</CTAButton>
               <p className="font-display text-sm text-foreground/65">
                 Free shipping on orders over $60 CAD · 180-day money-back guarantee · Health Canada Licensed · Ships from Canada
               </p>

@@ -14,110 +14,110 @@ import histamineImage from "@/assets/ingredient-histamine.jpg";
 
 const ingredients = [
   {
-    category: "COOLING RELIEF",
+    category: "COOLING ACTIVE",
     name: "Menthol 10%",
     description:
-      "Full-strength cooling that lands the moment you apply it. Menthol intercepts pain signals on their way to the brain, so instead of waiting for relief to arrive, you feel it within seconds.",
-    badge: "Maximum OTC strength",
+      "That clean, cold rush you feel within seconds of rubbing it in. Menthol works on the same nerve receptors that respond to ice, which is why a sore knee or tight shoulder starts to settle the moment the gel goes on. At 10%, this is the upper end of what a topical can carry.",
+    badge: "Maximum Allowable Strength",
     image: mentholImage,
     link: "https://terrafreeze.ca/ingredients/menthol",
   },
   {
-    category: "WARMING ACTION",
+    category: "WARMING ACTIVE",
     name: "Methyl Salicylate 10%",
     description:
-      "Where Menthol cools the surface, Methyl Salicylate drives warmth into stiff joints and tight muscles beneath it. It's what separates a formula that works from one that just tingles.",
-    badge: "Deep-warming circulation",
+      "After the cool comes a slow, deep warmth. Methyl salicylate is the warming counterpart to menthol, and the two together create the sensation that tells you the formula is working into the muscle. Common in topical analgesics for over a century, used here at full strength.",
+    badge: "Deep Warming Comfort",
     image: methylImage,
     link: "https://terrafreeze.ca/ingredients/methyl-salicylate",
   },
   {
-    category: "ANTI-INFLAMMATORY",
+    category: "TRADITIONAL BOTANICAL",
     name: "Arnica Montana",
     description:
-      "A flowering herb trusted for centuries to reduce swelling at the cellular level. Less inflammation means less pain, and less of waking up stiff and slow the next morning.",
-    badge: "Used for 500+ years",
+      "A mountain flower used by European herbalists for centuries on bruises, bumps, and the kind of soreness that shows up after a long day on your feet. Athletes know it. Physiotherapists know it. It is in TERRAFREEZE for a reason.",
+    badge: "Centuries of Use",
     image: arnicaImage,
     link: "https://terrafreeze.ca/ingredients/arnica",
   },
   {
-    category: "DEEP PENETRATION",
+    category: "DELIVERY CARRIER",
     name: "Emu Oil",
     description:
-      "Active ingredients sitting on the skin surface don't reach the tissue that hurts. Emu Oil drives the formula through all 7 layers of skin to the source, so the relief is real, not just topical.",
-    badge: "7-layer skin penetration",
+      "This is the ingredient that makes the other 17 actually do their job. Emu oil shares a fatty acid profile with human skin, which means it absorbs instead of beading on the surface. It carries the rest of the formula down through all seven layers of skin to the inflamed tissue underneath. No carrier, no delivery, no relief.",
+    badge: "7-Layer Skin Delivery",
     image: emuOilImage,
     link: "https://terrafreeze.ca/ingredients/emu-oil",
   },
   {
-    category: "SKIN SOOTHING",
+    category: "SOOTHING BASE",
     name: "Aloe Vera",
     description:
-      "Keeps skin calm and receptive so the actives absorb faster and more evenly. No irritation, no greasy residue, no reason to skip an application.",
-    badge: "Calms & hydrates",
+      "The ingredient that keeps a strong formula gentle. Aloe calms the skin so you can apply TERRAFREEZE two or three times a day without irritation, even on sensitive areas like the inside of the elbow or the back of the knee.",
+    badge: "Skin-Calming Carrier",
     image: aloeVeraImage,
     link: "https://terrafreeze.ca/ingredients/aloe-vera",
   },
   {
-    category: "ANTIOXIDANT POWER",
+    category: "BOTANICAL SUPPORT",
     name: "Turmeric Extract",
     description:
-      "Curcumin, turmeric's active compound, targets the oxidative stress that makes overworked joints and muscles slow to recover. Less damage accumulating means the next day starts better than the last one ended.",
-    badge: "Powerful curcumin",
+      "Turmeric is one of the most studied plant compounds in modern wellness, and for good reason. Including it in a topical formula means it is going where you need it, instead of running through your whole digestive system on the way.",
+    badge: "Targeted Botanical",
     image: turmericImage,
     link: "https://terrafreeze.ca/ingredients/turmeric",
   },
   {
-    category: "WARMING CIRCULATION",
+    category: "BOTANICAL SUPPORT",
     name: "Ginger Root",
     description:
-      "Poor circulation keeps pain in place. Ginger Root pushes warmth into areas where blood flow has stalled, knees, hands, lower back, and helps the rest of the formula reach further.",
-    badge: "Natural warming agent",
+      "Ginger has been a remedy for stiff, sore bodies since long before pharmacies existed. In a topical, it adds a quiet warming layer that complements the methyl salicylate and supports the comfort of joints that have seen a lot of use.",
+    badge: "Heritage Botanical",
     image: gingerImage,
     link: "https://terrafreeze.ca/ingredients/ginger-root-extract",
   },
   {
-    category: "SKIN REPAIR",
+    category: "SKIN CONDITIONING",
     name: "Vitamins C & E",
     description:
-      "Two antioxidants working as a team. Vitamin C supports tissue repair from the inside. Vitamin E protects the skin barrier so it keeps absorbing effectively, application after application.",
-    badge: "Antioxidant protection",
+      "A pain cream gets rubbed into the same patches of skin day after day. Vitamins C and E keep that skin in good shape over months of regular use, so daily application stays comfortable instead of becoming a problem of its own.",
+    badge: "Long-Term Skin Care",
     image: vitaminsImage,
     link: "https://terrafreeze.ca/ingredients/vitamin-c",
   },
   {
-    category: "JOINT MOBILITY",
+    category: "RESIN EXTRACT",
     name: "Boswellia Serrata",
     description:
-      "Used in Ayurvedic medicine for centuries and backed by clinical research on joint inflammation. Reduces swelling in knees and hands and supports the long-term mobility that lets you keep doing what you do.",
-    badge: "Ancient joint remedy",
+      "Also called Indian frankincense. Used in traditional medicine for joint comfort for thousands of years, and increasingly studied in the West for the same reason. It is in TERRAFREEZE because the formula is meant to support joints that are working hard, not just mask what they feel.",
+    badge: "Joint-Focused Botanical",
     image: boswelliaImage,
     link: "https://terrafreeze.ca/ingredients/boswellia",
   },
   {
-    category: "BOTANICAL CALM",
+    category: "CALMING BOTANICAL",
     name: "Chamomile Extract",
     description:
-      "Reduces surface inflammation and soothes irritated skin so stronger actives can penetrate without the redness or sensitivity that high-potency formulas can cause.",
-    badge: "Gentle on skin",
+      "Best known for tea, but its skin-calming properties are why it shows up in topicals. Chamomile takes the edge off the warming actives and helps the gel stay easy to wear, even on areas you apply often.",
+    badge: "Gentle on Skin",
     image: chamomileImage,
     link: "https://terrafreeze.ca/ingredients/chamomile",
   },
   {
-    category: "JOINT SUPPORT",
+    category: "JOINT-SUPPORT PAIR",
     name: "MSM & Glucosamine",
     description:
-      "MSM reduces the oxidative stress that breaks cartilage down over time. Glucosamine supports the rebuild. Together they address the structural side of joint pain, not just the feeling of it.",
-    badge: "Supports cellular repair",
+      "MSM and glucosamine are two of the most recognized names in joint support, usually taken as pills or capsules. In TERRAFREEZE, they are delivered straight to the area you are rubbing them into, with no detour through your stomach.",
+    badge: "Familiar Names, Direct Delivery",
     image: msmImage,
     link: "https://terrafreeze.ca/ingredients/msm",
   },
   {
-    category: "ABSORPTION BOOST",
+    category: "CIRCULATION SUPPORT",
     name: "Histamine Dihydrochloride",
     description:
-      "Dilates local blood vessels so every other ingredient absorbs faster and reaches a wider area. The reason TERRAFREEZE works more thoroughly than any single-ingredient cream can.",
-    badge: "Supercharges delivery",
+      "A topical ingredient that supports blood flow at the application site. Better circulation in a sore area means the warmth, the cooling, and the rest of the formula reach further and stay longer.",
+    badge: "Localized Circulation",
     image: histamineImage,
     link: "https://terrafreeze.ca/ingredients/histamine",
   },
@@ -131,20 +131,20 @@ const IngredientsSection = () => {
           {/* Section Badge */}
           <div className="flex justify-center mb-6">
             <span className="font-display inline-block px-4 py-1.5 bg-primary text-primary-foreground text-sm font-semibold rounded-full uppercase tracking-wide">
-              The Formula
+              The Full Formula, Nothing Hidden
             </span>
           </div>
 
           {/* Headline */}
           <div className="text-center mb-4">
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-              Every Ingredient Earns Its Place.
+              Every Ingredient Earns Its Spot
             </h2>
           </div>
 
           {/* Subheadline */}
           <p className="font-display text-center text-muted-foreground max-w-5xl mx-auto mb-12 text-base lg:text-lg lg:whitespace-nowrap">
-            No fillers. No fluff. Eighteen actives, each targeting a different reason your pain keeps coming back.
+            A pain cream is only as honest as its label. Here is what is in every jar of TERRAFREEZE, what each ingredient is doing, and why Dr. Spreen built the formula this way.
           </p>
 
           {/* Ingredient Cards Grid */}

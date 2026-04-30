@@ -2,15 +2,15 @@ import { Check } from "lucide-react";
 import mapleLeaf from "@/assets/maple-leaf.png";
 
 const leftTrust = [
-  "10% Menthol: full-strength cooling on contact",
-  "Zero parabens, zero synthetic fillers",
-  "Non-greasy, wears all day under clothing",
+  "18 actives in one formula, not a single token ingredient",
+  "Non-greasy, dries clean, wear it under clothes",
+  "Trusted by 15,000+ Canadian customers",
 ];
 
 const rightTrust = [
   "Health Canada Licensed",
-  "180-Day Money-Back Guarantee",
-  "Ships from Canada, no tariffs, no delays",
+  "180-Day Money-Back Guarantee, even on empty jars",
+  "Ships from Canada, no border delays",
 ];
 
 const HeroSection = () => {
@@ -62,15 +62,15 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 rounded-full border border-[hsl(355_75%_45%)]/30 bg-background/85 backdrop-blur-sm shadow-sm">
             <img src={mapleLeaf} alt="" width={1024} height={1024} className="h-4 w-4" />
             <span className="font-display text-xs sm:text-sm font-semibold uppercase tracking-wider text-[hsl(355_75%_35%)]">
-              Made in Canada. Built for Real Pain.
+              Made for Canadians, Made in Canada
             </span>
           </div>
 
           {/* H1 */}
           <h1 className="font-display text-[1.625rem] sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight leading-[1.15] mb-5">
-            <span className="block">Why TERRAFREEZE Works</span>
+            <span className="block">18 Active Ingredients.</span>
             <span className="block sm:whitespace-nowrap">
-              When Everything{" "}
+              One Reason They{" "}
               <span className="relative inline-block">
                 <svg
                   aria-hidden="true"
@@ -83,14 +83,14 @@ const HeroSection = () => {
                     fill="currentColor"
                   />
                 </svg>
-                <span className="relative z-10">Else Hasn't</span>
+                <span className="relative z-10">Reach the Pain.</span>
               </span>
             </span>
           </h1>
 
           {/* Subheading */}
           <p className="font-display text-base sm:text-lg text-foreground/75 max-w-3xl mx-auto leading-relaxed mb-7">
-            Most creams coat the surface and wear off in twenty minutes. TERRAFREEZE uses a clinically-backed delivery system to carry 18 active ingredients through the skin to where the pain actually is. Deeper relief. Longer lasting. No pills required.
+            Most pain creams sit on top of your skin and call it a day. TERRAFREEZE uses Emu Oil to carry 18 active ingredients through every layer of skin to the tissue that actually hurts. That is the difference between a cooling sensation and real, lasting comfort.
           </p>
 
           {/* Trust bar inside a card */}
@@ -132,7 +132,7 @@ const HeroSection = () => {
                 href="#ingredients"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm sm:text-base font-display font-bold uppercase tracking-wide text-primary bg-transparent border-2 border-primary rounded-md transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:-translate-y-0.5 shadow-sm hover:shadow-md"
               >
-                <span>See What's Inside</span>
+                <span>See What's Inside the Jar</span>
                 <span aria-hidden="true">↓</span>
               </a>
               <a
@@ -141,12 +141,12 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm sm:text-base font-display font-bold uppercase tracking-wide text-gold-foreground bg-gold rounded-md transition-all duration-300 hover:brightness-105 hover:-translate-y-0.5 shadow-sm hover:shadow-elevated"
               >
-                <span>Try It Risk-Free</span>
+                <span>Order TERRAFREEZE</span>
                 <span aria-hidden="true">→</span>
               </a>
             </div>
             <p className="font-display text-xs sm:text-sm text-foreground/70">
-              Free shipping on orders over $60 CAD · No questions asked returns
+              Free shipping on orders over $60 CAD. No-questions-asked returns for 180 days.
             </p>
           </div>
         </div>

@@ -3,21 +3,21 @@ import { Snowflake, Sparkles, Layers } from "lucide-react";
 const pillars = [
   {
     icon: Snowflake,
-    title: "Cool & Block",
+    title: "Cool First, Warm Second",
     description:
-      "Menthol and Methyl Salicylate activate cold and warm receptors simultaneously, cutting the pain signal before your brain registers it as pain. Most people feel the difference within 60 seconds of applying, not because it's masking anything, but because the signal is interrupted at the source.",
+      "The fastest way to interrupt a pain signal is cold. Menthol at 10% gives that immediate relief in seconds, then methyl salicylate follows with a deeper warmth that helps the muscle let go. Two sensations, one clear sequence.",
   },
   {
     icon: Sparkles,
-    title: "Reduce & Restore",
+    title: "Eighteen Reasons, Not One",
     description:
-      "Arnica, Boswellia, MSM, and Turmeric go to work on the inflammation driving the pain in the first place. Swelling drops. Stiff joints start to move again. The relief you feel in the first minute builds into something that's still working hours later.",
+      "A single active ingredient can only do so much. Joints, muscles, skin, and circulation all benefit from different things. By combining 18 actives that each address a different piece of the problem, the formula has more ways to help and fewer ways to fall short.",
   },
   {
     icon: Layers,
-    title: "Penetrate & Protect",
+    title: "Get the Formula to the Pain",
     description:
-      "Emu Oil ensures none of this stays on the surface. It carries the full formula through every skin layer to the tissue that needs it. Aloe Vera and Vitamins C & E keep skin healthy so each application works as well as the one before it.",
+      "An ingredient list means nothing if the ingredients stay on the surface. Emu oil is the carrier that pulls the active ingredients through every layer of skin to the tissue that actually hurts. This is what separates TERRAFREEZE from a cream that just feels cold for ten minutes.",
   },
 ];
 
@@ -29,15 +29,15 @@ const FormulaPhilosophySection = () => {
           {/* Badge */}
           <div className="flex justify-center mb-6">
             <span className="inline-block px-4 py-1.5 bg-accent/10 text-accent text-xs sm:text-sm font-display font-semibold rounded-full uppercase tracking-wider">
-              How It Works
+              How Dr. Spreen Built It
             </span>
           </div>
 
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-center tracking-tight mb-4">
-            One Application. Three Things Happen at Once.
+            A Topical Built on Three Simple Principles
           </h2>
           <p className="font-display text-center text-foreground/70 max-w-3xl mx-auto mb-14 text-lg">
-            Pain isn't one problem. It's nerve signals, inflammation, and poor circulation firing at the same time. TERRAFREEZE is built to hit all three, not pick one and leave the others running.
+            When Dr. Allan Spreen sat down to design this formula, he was not trying to reinvent topical pain relief. He was trying to fix what most topicals get wrong. Three rules guided every decision.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
