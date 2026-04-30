@@ -5,19 +5,19 @@ const pillars = [
     icon: Snowflake,
     title: "Cool & Block",
     description:
-      "Menthol and Methyl Salicylate activate cold receptors and disrupt pain signals before they reach the brain. Relief you feel within 60 seconds of application.",
+      "Menthol and Methyl Salicylate activate cold and warm receptors simultaneously, cutting the pain signal before your brain registers it as pain. Most people feel the difference within 60 seconds of applying, not because it's masking anything, but because the signal is interrupted at the source.",
   },
   {
     icon: Sparkles,
     title: "Reduce & Restore",
     description:
-      "Arnica, Boswellia, MSM, and Turmeric work at the cellular level to reduce inflammation and rebuild joint mobility, so the relief doesn't stop when the cooling does.",
+      "Arnica, Boswellia, MSM, and Turmeric go to work on the inflammation driving the pain in the first place. Swelling drops. Stiff joints start to move again. The relief you feel in the first minute builds into something that's still working hours later.",
   },
   {
     icon: Layers,
     title: "Penetrate & Protect",
     description:
-      "Emu Oil carries every active ingredient through all 7 layers of skin. Aloe Vera and Vitamins C & E protect skin and sustain absorption, every application.",
+      "Emu Oil ensures none of this stays on the surface. It carries the full formula through every skin layer to the tissue that needs it. Aloe Vera and Vitamins C & E keep skin healthy so each application works as well as the one before it.",
   },
 ];
 
@@ -29,15 +29,15 @@ const FormulaPhilosophySection = () => {
           {/* Badge */}
           <div className="flex justify-center mb-6">
             <span className="inline-block px-4 py-1.5 bg-accent/10 text-accent text-xs sm:text-sm font-display font-semibold rounded-full uppercase tracking-wider">
-              The Science Behind the Relief
+              How It Works
             </span>
           </div>
 
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-center tracking-tight mb-4">
-            Three Pain Pathways. One Formula.
+            One Application. Three Things Happen at Once.
           </h2>
           <p className="font-display text-center text-foreground/70 max-w-3xl mx-auto mb-14 text-lg">
-            TERRAFREEZE is built to interrupt pain at the source, not just mask it while it waits for you to move again.
+            Pain isn't one problem. It's nerve signals, inflammation, and poor circulation firing at the same time. TERRAFREEZE is built to hit all three, not pick one and leave the others running.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

@@ -2,22 +2,22 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Mike R., Calgary AB",
+    name: "Rick T., Edmonton AB",
     condition: "Arthritis",
     quote:
-      "The cooling kicks in fast and actually lasts. I work outdoors through Alberta winters and my knees are brutal by February. I've tried Biofreeze, nothing touched my joint pain the way this does.",
+      "I'm an electrician. My hands have to work. I've spent more on creams that didn't deliver than I want to admit. TERRAFREEZE is the first one where I actually noticed a difference by the end of the week, not just for an hour.",
   },
   {
-    name: "Sarah J., Mississauga ON",
+    name: "Linda M., Hamilton ON",
     condition: "Chronic Back Pain",
     quote:
-      "I'm on my feet 12 hours a day as a nurse. I was skeptical about a cream with this many ingredients, but the formula genuinely works. Three months in and I've stopped reaching for ibuprofen.",
+      "I've been in retail management for 22 years. Concrete floors, long shifts, no sitting. Three weeks in and I'm moving better. I don't reach for ibuprofen every afternoon anymore and that alone was worth it.",
   },
   {
-    name: "David L., Ottawa ON",
-    condition: "Nerve Pain",
+    name: "Paul D., Kelowna BC",
+    condition: "Knee Pain",
     quote:
-      "What sold me was the guarantee, zero risk to try it. My hands go stiff every winter and this is the only thing that gives me real relief. Now I order the 6-jar bundle every time.",
+      "180 days to decide if it works, that's the only reason I tried it. I'm on my third order now. It's not a miracle, it just actually does what it says. For a pain cream, that's rare enough.",
   },
 ];
 
