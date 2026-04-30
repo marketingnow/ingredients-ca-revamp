@@ -30,19 +30,6 @@ const HeroSection = () => {
             "radial-gradient(ellipse 60% 50% at 50% 0%, hsl(355 75% 45% / 0.35), transparent 70%)",
         }}
       />
-      {/* Large faded maple leaf watermark */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 flex items-center justify-center"
-      >
-        <img
-          src={mapleLeaf}
-          alt=""
-          width={1024}
-          height={1024}
-          className="w-[640px] h-[640px] max-w-[90%] opacity-[0.09]"
-        />
-      </div>
       {/* Faint grid texture */}
       <div
         aria-hidden="true"
