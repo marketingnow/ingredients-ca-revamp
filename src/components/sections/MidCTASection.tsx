@@ -13,11 +13,11 @@ const MidCTASection = () => {
               loading="lazy"
             />
             <h2 className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-foreground tracking-tight max-w-2xl">
-              Over 15,000 Canadians Have Tried It. None of Them Risked Anything.
+              18 Actives. 180 Days to Decide. Empty Jars Welcome.
             </h2>
           </div>
           <CTAButton className="flex-shrink-0">
-            TRY IT RISK-FREE → 180-DAY GUARANTEE
+            Try TERRAFREEZE Risk-Free
           </CTAButton>
         </div>
       </div>
