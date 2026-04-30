@@ -26,7 +26,7 @@ const ClosingCTASection = () => {
             <div className="flex flex-col items-center lg:items-start gap-3">
               <CTAButton>TRY IT RISK-FREE → 180-DAY GUARANTEE</CTAButton>
               <p className="font-display text-sm text-foreground/65">
-                Free US shipping on 3+ jars · 180-day money-back guarantee · FDA Registered · Ships from the USA
+                Free shipping on orders over $60 CAD · 180-day money-back guarantee · Health Canada Licensed · Ships from Canada
               </p>
             </div>
           </div>

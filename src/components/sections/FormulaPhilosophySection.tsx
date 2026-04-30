@@ -5,19 +5,19 @@ const pillars = [
     icon: Snowflake,
     title: "Cool & Block",
     description:
-      "Menthol and Methyl Salicylate activate cold receptors and disrupt pain signals before they reach the brain. Relief you feel within 60 seconds.",
+      "Menthol and Methyl Salicylate activate cold receptors and disrupt pain signals before they reach the brain. Relief you feel within 60 seconds of application.",
   },
   {
     icon: Sparkles,
     title: "Reduce & Restore",
     description:
-      "Arnica, Boswellia, MSM, and Turmeric work at the cellular level to reduce inflammation and rebuild joint mobility over time.",
+      "Arnica, Boswellia, MSM, and Turmeric work at the cellular level to reduce inflammation and rebuild joint mobility, so the relief doesn't stop when the cooling does.",
   },
   {
     icon: Layers,
     title: "Penetrate & Protect",
     description:
-      "Emu Oil carries every active ingredient through all 7 layers of skin. Aloe Vera and Vitamins C & E protect skin and sustain absorption.",
+      "Emu Oil carries every active ingredient through all 7 layers of skin. Aloe Vera and Vitamins C & E protect skin and sustain absorption, every application.",
   },
 ];
 
@@ -37,7 +37,7 @@ const FormulaPhilosophySection = () => {
             Three Pain Pathways. One Formula.
           </h2>
           <p className="font-display text-center text-foreground/70 max-w-3xl mx-auto mb-14 text-lg">
-            TERRAFREEZE is engineered to interrupt pain at the source, not just mask it on the surface.
+            TERRAFREEZE is built to interrupt pain at the source, not just mask it while it waits for you to move again.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

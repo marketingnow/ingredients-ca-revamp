@@ -1,15 +1,15 @@
 const qa = [
   {
     q: "What are the active ingredients in TERRAFREEZE?",
-    a: "TERRAFREEZE contains two primary OTC actives, Menthol (10%) and Methyl Salicylate (10%), alongside 16 supportive natural ingredients including Arnica Montana, MSM, Emu Oil, Boswellia Serrata, Turmeric Extract, Aloe Vera, Ginger Root, Chamomile Extract, Histamine Dihydrochloride, and Vitamins C & E.",
+    a: "TERRAFREEZE contains two primary active ingredients, Menthol (10%) and Methyl Salicylate (10%), alongside 16 supportive natural ingredients including Arnica Montana, MSM, Emu Oil, Boswellia Serrata, Turmeric Extract, Aloe Vera, Ginger Root, Chamomile Extract, Histamine Dihydrochloride, and Vitamins C & E. The full formula is Health Canada Licensed.",
   },
   {
     q: "How does TERRAFREEZE compare to Biofreeze or Voltaren?",
-    a: "Biofreeze uses menthol alone. Voltaren uses a single NSAID (diclofenac). TERRAFREEZE combines a maximum-strength menthol base with 16 additional actives targeting inflammation, penetration, and joint support, covering more pain pathways in a single application.",
+    a: "Biofreeze uses menthol alone. Voltaren uses a single NSAID (diclofenac). TERRAFREEZE combines a maximum-strength menthol base with 16 additional actives targeting inflammation, penetration, and joint support, covering more pain pathways in a single application. It's also Health Canada Licensed and ships from Canada with no cross-border tariffs or delays.",
   },
   {
     q: "Is TERRAFREEZE safe to use every day?",
-    a: "Yes. TERRAFREEZE is formulated for daily use and can be applied up to 3–4 times per day. It contains no parabens, no synthetic fillers, and no steroids.",
+    a: "Yes. TERRAFREEZE is formulated for daily use and can be applied up to 3-4 times per day. It contains no parabens, no synthetic fillers, and no steroids.",
   },
   {
     q: "How quickly does TERRAFREEZE work?",
@@ -17,7 +17,7 @@ const qa = [
   },
   {
     q: "What if it doesn't work for me?",
-    a: "Every order is backed by our 180-day money-back guarantee. If you don't feel a difference, contact us for a full refund. No questions asked.",
+    a: "Every order is backed by our 180-day money-back guarantee. If you don't feel a difference, contact us for a full refund, no questions asked. And because TERRAFREEZE ships from Canada, there are no cross-border delays or tariff surprises on your order.",
   },
 ];
 

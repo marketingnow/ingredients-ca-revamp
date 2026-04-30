@@ -17,19 +17,19 @@ const ingredients = [
     category: "COOLING RELIEF",
     name: "Menthol 10%",
     description:
-      "Provides immediate cooling sensation that soothes pain on contact. Creates a refreshing feeling while blocking pain signals to the brain.",
+      "Provides immediate cooling sensation that soothes pain on contact. Blocks pain signals to the brain so you feel the difference within seconds, not hours.",
     badge: "Instant cooling action",
     image: mentholImage,
-    link: "https://terrafreeze.com/ingredients/menthol",
+    link: "https://terrafreeze.ca/ingredients/menthol",
   },
   {
     category: "WARMING ACTION",
     name: "Methyl Salicylate 10%",
     description:
-      "Generates a warming sensation to increase blood flow and ease deep joint stiffness. Provides lasting relief that penetrates deep into muscles.",
+      "Generates a warming sensation that increases blood flow and eases deep joint stiffness, especially effective for the cold-weather stiffness that sets in during Canadian winters.",
     badge: "Improves circulation",
     image: methylImage,
-    link: "https://terrafreeze.com/ingredients/methyl-salicylate",
+    link: "https://terrafreeze.ca/ingredients/methyl-salicylate",
   },
   {
     category: "ANTI-INFLAMMATORY",
@@ -38,7 +38,7 @@ const ingredients = [
       "Powerful natural herb that reduces inflammation and bruising at the cellular level. Less swelling, faster healing, and relief that lasts for hours.",
     badge: "Used for 500+ years",
     image: arnicaImage,
-    link: "https://terrafreeze.com/ingredients/arnica",
+    link: "https://terrafreeze.ca/ingredients/arnica",
   },
   {
     category: "DEEP PENETRATION",
@@ -47,52 +47,52 @@ const ingredients = [
       "Carries active ingredients through all 7 layers of skin directly to inflamed tissues. Faster relief, reduced swelling, and pain that actually goes away.",
     badge: "Clinical-Grade Carrier",
     image: emuOilImage,
-    link: "https://terrafreeze.com/ingredients/emu-oil",
+    link: "https://terrafreeze.ca/ingredients/emu-oil",
   },
   {
     category: "SKIN SOOTHING",
     name: "Aloe Vera",
     description:
-      "Soothes irritated skin and enhances delivery of active ingredients without leaving a greasy feel.",
+      "Soothes and hydrates skin while enhancing delivery of active ingredients, without the greasy residue that makes other creams a hassle to wear all day.",
     badge: "Calms & hydrates",
     image: aloeVeraImage,
-    link: "https://terrafreeze.com/ingredients/aloe-vera",
+    link: "https://terrafreeze.ca/ingredients/aloe-vera",
   },
   {
     category: "ANTIOXIDANT POWER",
     name: "Turmeric Extract",
     description:
-      "Natural antioxidant that fights inflammation and supports tissue healing from overuse.",
+      "Natural antioxidant that fights inflammation and supports tissue healing from overuse, whether you're on your feet all day or pushing through winter stiffness.",
     badge: "Powerful curcumin",
     image: turmericImage,
-    link: "https://terrafreeze.com/ingredients/turmeric",
+    link: "https://terrafreeze.ca/ingredients/turmeric",
   },
   {
     category: "WARMING CIRCULATION",
     name: "Ginger Root",
     description:
-      "Improves circulation and warms tense muscles, helping ease chronic pain and stiffness.",
+      "Improves circulation and warms tense muscles, helping ease chronic pain and the stiffness that cold weather makes worse.",
     badge: "Natural warming agent",
     image: gingerImage,
-    link: "https://terrafreeze.com/ingredients/ginger-root-extract",
+    link: "https://terrafreeze.ca/ingredients/ginger-root-extract",
   },
   {
     category: "SKIN REPAIR",
     name: "Vitamins C & E",
     description:
-      "Powerful antioxidants that nourish and protect skin while enhancing absorption. Supports tissue repair and keeps skin healthy.",
+      "Powerful antioxidants that nourish and protect skin while enhancing absorption. Supports tissue repair and keeps skin healthy through every season.",
     badge: "Antioxidant protection",
     image: vitaminsImage,
-    link: "https://terrafreeze.com/ingredients/vitamin-c",
+    link: "https://terrafreeze.ca/ingredients/vitamin-c",
   },
   {
     category: "JOINT MOBILITY",
     name: "Boswellia Serrata",
     description:
-      "Reduces swelling in joints and improves long-term mobility, especially in knees and hands.",
+      "Reduces swelling in joints and improves long-term mobility, especially in knees and hands, where arthritis hits hardest in cold months.",
     badge: "Ancient joint remedy",
     image: boswelliaImage,
-    link: "https://terrafreeze.com/ingredients/boswellia",
+    link: "https://terrafreeze.ca/ingredients/boswellia",
   },
   {
     category: "BOTANICAL CALM",
@@ -101,16 +101,16 @@ const ingredients = [
       "Anti-inflammatory and skin-soothing botanical that supports topical comfort and absorption.",
     badge: "Gentle on skin",
     image: chamomileImage,
-    link: "https://terrafreeze.com/ingredients/chamomile",
+    link: "https://terrafreeze.ca/ingredients/chamomile",
   },
   {
     category: "JOINT SUPPORT",
     name: "MSM & Glucosamine",
     description:
-      "Supports joint health by rebuilding cartilage and reducing oxidative stress. Improved mobility, less stiffness, and long-term joint protection.",
+      "Supports joint health by rebuilding cartilage and reducing oxidative stress. Improved mobility, less stiffness, and long-term joint protection for the long Canadian winters ahead.",
     badge: "Supports cellular repair",
     image: msmImage,
-    link: "https://terrafreeze.com/ingredients/msm",
+    link: "https://terrafreeze.ca/ingredients/msm",
   },
   {
     category: "ABSORPTION BOOST",
@@ -119,7 +119,7 @@ const ingredients = [
       "Encourages local blood flow and helps maximize ingredient effectiveness and absorption.",
     badge: "Boosts delivery",
     image: histamineImage,
-    link: "https://terrafreeze.com/ingredients/histamine",
+    link: "https://terrafreeze.ca/ingredients/histamine",
   },
 ];
 
@@ -144,7 +144,7 @@ const IngredientsSection = () => {
 
           {/* Subheadline */}
           <p className="font-display text-center text-muted-foreground max-w-5xl mx-auto mb-12 text-base lg:text-lg lg:whitespace-nowrap">
-            TERRAFREEZE contains only clinically-proven active ingredients, each one selected to deliver real pain relief from within.
+            Every ingredient in TERRAFREEZE is there for a reason, selected to deliver real, lasting relief for the pain Canadians deal with every day.
           </p>
 
           {/* Ingredient Cards Grid */}
