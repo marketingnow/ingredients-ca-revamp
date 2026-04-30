@@ -14,23 +14,41 @@ const rightTrust = [
 
 const HeroSection = () => {
   return (
-    <section className="relative overflow-hidden border-b border-border/60 bg-gradient-to-b from-brand-light via-brand-light/60 to-background pt-6 pb-10 sm:pt-8 sm:pb-12 lg:pt-8 lg:pb-14">
-      {/* Subtle radial accent glow */}
+    <section className="relative overflow-hidden border-b border-border/60 pt-6 pb-10 sm:pt-8 sm:pb-12 lg:pt-8 lg:pb-14"
+      style={{
+        background:
+          "linear-gradient(to bottom, hsl(0 60% 97%), hsl(40 50% 98% / 0.6), hsl(0 0% 100%))",
+      }}
+    >
+      {/* Soft red wash at top */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-[0.18]"
+        className="pointer-events-none absolute inset-0 opacity-[0.22]"
         style={{
           background:
-            "radial-gradient(ellipse 60% 50% at 50% 0%, hsl(202 72% 35% / 0.35), transparent 70%)",
+            "radial-gradient(ellipse 60% 50% at 50% 0%, hsl(355 75% 45% / 0.35), transparent 70%)",
         }}
       />
+      {/* Large faded maple leaf watermark */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.06]"
+      >
+        <svg
+          viewBox="0 0 100 100"
+          className="w-[640px] h-[640px] max-w-[90%] text-[hsl(355_75%_42%)]"
+          fill="currentColor"
+        >
+          <path d="M50 6 L54 28 L72 18 L66 38 L88 36 L72 50 L92 60 L70 62 L76 80 L58 70 L56 94 L50 84 L44 94 L42 70 L24 80 L30 62 L8 60 L28 50 L12 36 L34 38 L28 18 L46 28 Z" />
+        </svg>
+      </div>
       {/* Faint grid texture */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-[0.04]"
+        className="pointer-events-none absolute inset-0 opacity-[0.035]"
         style={{
           backgroundImage:
-            "linear-gradient(hsl(207 76% 24%) 1px, transparent 1px), linear-gradient(90deg, hsl(207 76% 24%) 1px, transparent 1px)",
+            "linear-gradient(hsl(355 75% 30%) 1px, transparent 1px), linear-gradient(90deg, hsl(355 75% 30%) 1px, transparent 1px)",
           backgroundSize: "48px 48px",
           maskImage:
             "radial-gradient(ellipse 70% 60% at 50% 40%, black, transparent 75%)",
@@ -40,10 +58,12 @@ const HeroSection = () => {
       <div className="content-container relative">
         <div className="max-w-4xl mx-auto text-center">
           {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 rounded-full border border-primary/20 bg-background/80 backdrop-blur-sm shadow-sm">
-            <FlaskConical className="h-3.5 w-3.5 text-accent" strokeWidth={2.5} />
-            <span className="font-display text-xs sm:text-sm font-semibold uppercase tracking-wider text-primary">
-              The Science Behind The Formula
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 rounded-full border border-[hsl(355_75%_45%)]/30 bg-background/85 backdrop-blur-sm shadow-sm">
+            <svg viewBox="0 0 100 100" className="h-3.5 w-3.5 text-[hsl(355_75%_45%)]" fill="currentColor" aria-hidden="true">
+              <path d="M50 6 L54 28 L72 18 L66 38 L88 36 L72 50 L92 60 L70 62 L76 80 L58 70 L56 94 L50 84 L44 94 L42 70 L24 80 L30 62 L8 60 L28 50 L12 36 L34 38 L28 18 L46 28 Z" />
+            </svg>
+            <span className="font-display text-xs sm:text-sm font-semibold uppercase tracking-wider text-[hsl(355_75%_35%)]">
+              Proudly Canadian Formula
             </span>
           </div>
 
