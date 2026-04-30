@@ -167,8 +167,8 @@ const IngredientsSection = () => {
                 <div className="absolute inset-0 bg-black/55" />
 
                 {/* Content */}
-                <div className="relative flex flex-col h-full p-6 text-center items-center justify-center">
-                  <h3 className="font-display text-2xl sm:text-3xl font-bold text-white mb-3 leading-tight">
+                <div className="relative flex flex-col h-full p-7 text-left justify-center">
+                  <h3 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
                     <a
                       href={ingredient.link}
                       target="_blank"
@@ -179,12 +179,12 @@ const IngredientsSection = () => {
                     </a>
                   </h3>
 
-                  <p className="font-display text-white text-sm lg:text-base leading-snug font-medium max-w-[92%] drop-shadow-md mb-14">
+                  <p className="font-display text-white text-base lg:text-lg leading-snug font-semibold drop-shadow-md mb-16">
                     {ingredient.description}
                   </p>
 
-                  {/* Pill badge bottom-center */}
-                  <div className="absolute bottom-5 left-1/2 -translate-x-1/2">
+                  {/* Pill badge bottom-left */}
+                  <div className="absolute bottom-5 left-7">
                     <span className="font-display inline-block px-4 py-1.5 bg-white text-foreground text-xs font-semibold rounded-full shadow-md">
                       {ingredient.badge}
                     </span>
