@@ -2,15 +2,15 @@ import { Check } from "lucide-react";
 import mapleLeaf from "@/assets/maple-leaf.png";
 
 const leftTrust = [
-  "10% Menthol: Maximum OTC strength",
-  "No parabens, no synthetic fillers",
-  "Non-greasy, fast-absorbing",
+  "10% Menthol: full-strength cooling on contact",
+  "Zero parabens, zero synthetic fillers",
+  "Non-greasy, wears all day under clothing",
 ];
 
 const rightTrust = [
   "Health Canada Licensed",
   "180-Day Money-Back Guarantee",
-  "Ships from Canada",
+  "Ships from Canada, no tariffs, no delays",
 ];
 
 const HeroSection = () => {
