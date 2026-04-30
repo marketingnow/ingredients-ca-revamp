@@ -144,7 +144,7 @@ const IngredientsSection = () => {
 
           {/* Subheadline */}
           <p className="font-display text-center text-muted-foreground max-w-5xl mx-auto mb-12 text-base lg:text-lg lg:whitespace-nowrap">
-            A pain cream is only as honest as its label. Here is what is in every jar of TERRAFREEZE, what each ingredient is doing, and why Dr. Spreen built the formula this way.
+            A pain cream is only as honest as its label. Here is what is in every jar of TERRAFREEZE, and what each ingredient is doing.
           </p>
 
           {/* Ingredient Cards Grid */}
