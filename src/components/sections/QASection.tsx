@@ -1,23 +1,23 @@
 const qa = [
   {
-    q: "What's actually in TERRAFREEZE?",
-    a: "Two primary actives drive the formula: Menthol (10%) and Methyl Salicylate (10%), both at full over-the-counter strength. Behind them are 16 natural supporting ingredients, Arnica Montana, Emu Oil, MSM, Glucosamine, Boswellia Serrata, Turmeric Extract, Aloe Vera, Ginger Root, Chamomile Extract, Histamine Dihydrochloride, and Vitamins C & E. The complete formula is Health Canada Licensed.",
+    q: "I have tried Voltaren and Biofreeze. Why would TERRAFREEZE be any different?",
+    a: "Most topicals on the shelf rely on one active ingredient and stop at the skin. TERRAFREEZE has 18 actives and uses emu oil to carry them past the surface to the tissue underneath. That is not marketing language. That is how skin and oil chemistry work. If you have tried single-ingredient creams and felt only a brief cooling sensation, the issue was not your body. It was the formula.",
   },
   {
-    q: "How is this different from Biofreeze or Voltaren?",
-    a: "Biofreeze is menthol and nothing else. Voltaren is a single NSAID in gel form, the same class of drug as ibuprofen, applied topically. TERRAFREEZE combines maximum-strength cooling and warming actives with 16 additional ingredients targeting inflammation, penetration, and joint repair. It also ships from Canada with no tariff markups and is backed by a 180-day guarantee, something neither competitor offers.",
+    q: "What does emu oil actually do in this product?",
+    a: "Plain answer: emu oil has a fat structure very close to your own skin, so instead of sitting on the surface it absorbs through it, and it pulls the rest of the formula along for the ride. That means the menthol, the methyl salicylate, the arnica, all 18 ingredients reach the layer of tissue that is actually sore. Without a carrier like this, most of a topical never gets where it needs to go.",
   },
   {
-    q: "Can I use it every day?",
-    a: "Yes. TERRAFREEZE is formulated for daily use, up to 3 to 4 times per day. No parabens, no synthetic fillers, no steroids. It's used regularly by nurses, tradespeople, and active adults who need something they can count on through a full day of work or training.",
+    q: "Is it safe to use every day, more than once a day?",
+    a: "Yes. The formula is designed for regular daily use. Most customers apply it two or three times a day, often after a shower and again before bed. Aloe and chamomile are in there specifically to keep the skin comfortable so daily use does not become its own problem. As with any topical, do not apply to broken skin and wash your hands after.",
   },
   {
-    q: "How fast does it work?",
-    a: "The cooling and warming response hits within 60 seconds, that's Menthol and Methyl Salicylate doing their job immediately. The deeper anti-inflammatory work from Arnica, Boswellia, and MSM builds with consistent use. Most people notice a meaningful difference within the first two weeks.",
+    q: "How does the 180-day guarantee actually work?",
+    a: "It works the way a guarantee should. You have 180 days from the day your order arrives. If TERRAFREEZE does not deliver what you were hoping for, send it back, even if the jar is empty, and you get a full refund. No restocking fee. No fine print. No questions about why. We can offer this because most people who try it order again, but the option is there for everyone, no matter how they feel about it.",
   },
   {
-    q: "What if it doesn't work for me?",
-    a: "You have 180 days to decide, six months. If TERRAFREEZE doesn't make a noticeable difference to your pain, contact us for a full refund. No forms, no conditions, no runaround. We back it that way because the formula is worth backing. Over 15,000 Canadians have already made that call.",
+    q: "Will it work for the kind of pain I have?",
+    a: "TERRAFREEZE is a topical, which means it works where you put it. People use it on knees, lower backs, shoulders, hands, hips, feet, necks, elbows. If your discomfort is in a place you can reach with your hand, this formula has a good chance of helping. If it does not, the guarantee is there. Try it where it hurts and let your body tell you.",
   },
 ];
 
@@ -39,11 +39,11 @@ const QASection = () => {
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-center mb-6">
             <span className="inline-block px-4 py-1.5 bg-primary text-primary-foreground text-xs sm:text-sm font-display font-semibold rounded-full uppercase tracking-wider">
-              Your Questions
+              Straight Answers from Dr. Spreen
             </span>
           </div>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-center tracking-tight mb-12">
-            No Runaround. Just Answers.
+            What People Ask Before They Try It
           </h2>
 
           <div className="space-y-8">
